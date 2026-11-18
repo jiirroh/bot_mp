@@ -1,0 +1,23 @@
+# Dépendances Node.js
+node_modules/
+
+# Environnement
+.env
+.env.local
+
+# Base de données SQLite locale
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
